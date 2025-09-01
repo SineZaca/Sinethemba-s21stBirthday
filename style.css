@@ -1,0 +1,86 @@
+/* ========== GENERAL RESET ========== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical centering */
+  align-items: center;     /* horizontal centering */
+  text-align: center;
+}
+
+/* Headings and paragraphs */
+h1 {
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* Default button style */
+button {
+  background: #e91e63;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #d81b60;
+}
+
+/* Logo */
+.logo {
+  width: 200px;
+  margin: 20px auto;
+  display: block;
+}
+
+/* ========== WELCOME PAGE ========== */
+body.welcome {
+  background-color: darkblue;
+  color: white;
+}
+
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* fill the screen */
+  text-align: center;
+}
+
+body.welcome h1 {
+  font-size: 3rem; /* large heading */
+  margin-bottom: 20
+}
+
+/* -------------------- OTHER PAGES -------------------- */
+body.page {
+  background-color: mintcream;
+  color: #222;
+}
+
+button {
+  background: #e91e63;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background: #d81b60;
+}
